@@ -84,6 +84,13 @@ python scripts/run.py                # backend :17820 + frontend :5173
 The frontend talks to the backend through a `/api` proxy (see
 [`vite.config.ts`](frontend/vite.config.ts)); no CORS setup needed in dev.
 
+## Roadmap
+
+- [ ] **App screenshots & demo media** — add UI screenshots and a short capture of
+  the playground (compare slider + live preview) to this README.
+- [ ] **Video upscaling** — frame-by-frame PiD upscaling for video input, with
+  temporal consistency and audio passthrough.
+
 ## Status
 
 Extracted from a larger application as a standalone, public research tool. The
