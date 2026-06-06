@@ -4,6 +4,12 @@ A standalone web app for **NVIDIA PiD** ([Pixel Diffusion](https://github.com/nv
 
 > Built on a [shadcn/ui playground](https://ui.shadcn.com/examples/playground)-style interface. Flux / Flux.2 backbones run through a [ComfyUI](https://github.com/comfyanonymous/ComfyUI) backend; Scale-RAE (8×) runs via the PiD reference CLI.
 
+## Demo
+
+<video src="https://github.com/eaizy/PiD-4K-8K-Upscaler/raw/main/assets/demo.mp4" controls width="100%"></video>
+
+> If the player doesn't load, [watch the demo here](https://github.com/eaizy/PiD-4K-8K-Upscaler/raw/main/assets/demo.mp4).
+
 ---
 
 ## ⚠️ Licensing (read first)
