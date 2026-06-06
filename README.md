@@ -6,7 +6,11 @@ A standalone web app for **NVIDIA PiD** ([Pixel Diffusion](https://github.com/nv
 
 ## Demo
 
-[![PiD Studio — 4K upscale with a live before/after compare slider](assets/demo_poster.jpg)](https://github.com/eaizy/PiD-4K-8K-Upscaler/raw/main/assets/demo.mp4)
+
+
+https://github.com/user-attachments/assets/4e38e7cf-99eb-43f6-98a5-c7502aafaaf9
+
+
 
 ▶︎ **[Watch the 21-second demo](https://github.com/eaizy/PiD-4K-8K-Upscaler/raw/main/assets/demo.mp4)** — drop an image in, pick a target quality, and drag the slider to compare the 4K output against the source.
 
