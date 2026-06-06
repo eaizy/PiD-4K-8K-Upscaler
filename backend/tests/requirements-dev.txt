@@ -1,0 +1,7 @@
+# Test-only dependencies (in addition to backend/requirements.txt).
+pytest>=8.3.0
+# pillow, numpy, websockets are already pulled in by backend/requirements.txt
+# (websockets via uvicorn[standard]); listed here for clarity if run in isolation.
+pillow>=11.0.0
+numpy>=2.1.0
+websockets>=13.1

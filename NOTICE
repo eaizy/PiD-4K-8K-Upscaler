@@ -1,0 +1,34 @@
+PiD Studio
+Copyright 2026 PiD Studio contributors
+
+This product includes software developed by the PiD Studio contributors,
+licensed under the Apache License, Version 2.0.
+
+────────────────────────────────────────────────────────────────────────
+THIRD-PARTY COMPONENTS — IMPORTANT LICENSING NOTICE
+────────────────────────────────────────────────────────────────────────
+
+This application ORCHESTRATES the following third-party components. It does
+NOT redistribute their code or weights; they are fetched at runtime.
+
+1. NVIDIA PiD — source code
+   https://github.com/nv-tlabs/PiD
+   License: Apache License 2.0
+   Cloned at runtime; not vendored in this repository.
+
+2. NVIDIA PiD — model weights
+   https://huggingface.co/nvidia/PiD
+   License: NVIDIA Source Code License v1 (NSCLv1) — NON-COMMERCIAL.
+   The weights may be used for research or evaluation purposes ONLY.
+   They are downloaded at runtime with the user's own HF_TOKEN after the
+   user accepts the license on the model page. They are NOT included in,
+   and must NOT be committed to, this repository.
+
+3. ComfyUI
+   https://github.com/comfyanonymous/ComfyUI
+   License: GPL-3.0
+   Optionally auto-installed at runtime into a separate directory; not
+   vendored or redistributed here.
+
+By using this software to download and run the NVIDIA PiD weights, you
+agree to comply with the NSCLv1 non-commercial license terms.

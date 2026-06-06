@@ -1,0 +1,46 @@
+# ───────────────────────────── Python ─────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# ─────────────────────────── Node / Vite ──────────────────────────
+node_modules/
+frontend/dist/
+*.local
+.vite/
+
+# ─────────────── Models & weights (NEVER commit — NSCLv1) ──────────
+# PiD weights are non-commercial (NSCLv1) and large. They are downloaded
+# at runtime via HF_TOKEN; they must never be checked into a public repo.
+models/
+*.safetensors
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+
+# ───────────── ComfyUI (auto-installed at runtime) ────────────────
+vendor/ComfyUI/
+ComfyUI/
+
+# ───────────── Runtime install home (ComfyUI, models, pid-venv) ────
+.pidstudio/
+
+# ───────────── Editor / agent session dirs ────────────────────────
+.claude/
+
+# ─────────────────────── Runtime / user data ──────────────────────
+data/
+uploads/
+*.log
+
+# ───────────────────────────── Env / OS ───────────────────────────
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

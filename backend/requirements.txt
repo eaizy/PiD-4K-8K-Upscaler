@@ -1,0 +1,21 @@
+# PiD Studio backend — the FastAPI server's own dependencies.
+#
+# NOTE: heavy ML deps (torch, transformers, diffusers, …) are NOT here. The
+# server never imports them. They live in the PiD subprocess venv that the
+# installer creates from the cloned nv-tlabs/PiD repo (used only for the
+# scale_rae 8× backbone). The flux/flux2 backbones run inside ComfyUI, which
+# brings its own torch. This keeps a fork's base install small and fast.
+
+# Web framework
+fastapi==0.115.4
+uvicorn[standard]==0.32.0
+websockets==13.1
+python-multipart==0.0.12
+
+# Image I/O
+pillow==11.0.0
+numpy==2.1.3
+
+# Config + model download
+python-dotenv>=1.0.1
+huggingface_hub>=0.26.0
